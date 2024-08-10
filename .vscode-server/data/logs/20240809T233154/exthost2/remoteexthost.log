@@ -1,0 +1,1275 @@
+2024-08-10 00:53:40.024 [info] Extension host with pid 1811036 started
+2024-08-10 00:53:40.024 [error] Error: EEXIST: file already exists, open '/home/kaylin/.vscode-server/data/User/workspaceStorage/1d52835e0cbde98ccf6ecc44dc1656fc/vscode.lock'
+2024-08-10 00:53:40.026 [info] Lock '/home/kaylin/.vscode-server/data/User/workspaceStorage/1d52835e0cbde98ccf6ecc44dc1656fc/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-08-10 00:53:40.035 [info] Lock '/home/kaylin/.vscode-server/data/User/workspaceStorage/1d52835e0cbde98ccf6ecc44dc1656fc/vscode.lock': The lock does not look stale, elapsed: 604 ms, giving up.
+2024-08-10 00:53:40.040 [info] Lock '/home/kaylin/.vscode-server/data/User/workspaceStorage/1d52835e0cbde98ccf6ecc44dc1656fc-1/vscode.lock': Lock acquired.
+2024-08-10 00:53:41.209 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-08-10 00:53:41.373 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-08-10 00:53:41.730 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-08-10 00:53:41.730 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-08-10 00:53:42.164 [info] Eager extensions activated
+2024-08-10 00:53:42.164 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-08-10 00:53:42.165 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-08-10 00:54:35.617 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-08-10 00:54:50.365 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2711
+2024-08-10 00:54:51.667 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 00:54:52.483 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2711
+2024-08-10 00:54:53.490 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 00:55:50.460 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2711
+2024-08-10 00:55:51.468 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:03:23.441 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:03:24.447 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:03:28.439 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:03:29.446 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:03:33.507 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:03:34.514 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:03:38.571 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:03:39.576 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:03:43.634 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:03:44.639 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:03:48.697 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:03:49.702 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:03:53.760 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:03:54.765 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:03:58.824 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:03:59.828 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:06:59.632 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:07:00.639 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:07:04.623 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:07:05.631 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:07:09.686 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:07:10.692 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:07:14.749 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:07:15.756 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:07:19.812 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:07:20.818 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:07:24.876 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:07:25.882 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:07:29.939 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:07:30.945 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:07:35.006 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:07:36.011 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:07:40.071 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:07:41.076 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:07:45.137 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:07:46.142 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:09:59.379 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:09:59.822 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:10:00.384 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:10:00.828 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:10:04.451 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:10:05.456 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:10:09.515 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:10:10.520 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:10:14.577 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:10:15.583 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:10:19.641 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:10:20.646 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:10:24.702 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:10:25.708 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:10:29.766 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:10:30.771 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:10:34.828 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:10:35.833 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:10:39.892 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:10:40.897 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:10:44.955 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:10:45.961 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:10:50.024 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:10:51.029 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:10:55.085 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:10:56.091 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:11:19.167 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:11:20.173 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:11:24.230 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:11:25.236 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:11:29.292 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:11:30.298 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:11:34.356 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:11:35.362 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:11:39.419 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:11:40.426 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:11:44.483 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:11:45.489 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:11:54.106 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:11:55.113 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:11:57.542 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:11:58.547 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:12:01.074 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:12:02.079 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:12:06.138 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:12:07.143 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:12:43.307 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:12:44.313 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:12:48.371 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:12:49.376 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:12:53.434 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:12:54.440 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:12:58.497 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:12:59.503 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:12:59.892 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:13:00.898 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:13:03.562 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:13:04.567 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:13:08.626 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:13:09.632 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:13:13.691 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:13:14.696 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:13:18.754 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:13:19.759 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:13:30.556 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:13:31.561 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:13:35.622 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:13:36.627 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:13:40.687 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:13:41.693 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:13:45.750 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:13:46.755 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:15:33.733 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:15:34.739 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:15:38.797 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:15:39.802 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:15:43.860 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:15:44.866 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:15:48.923 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:15:49.928 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:15:53.987 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:15:54.992 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:15:59.051 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:15:59.960 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:16:00.324 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:16:00.965 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:16:04.116 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:16:05.121 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:16:09.179 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:16:10.185 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:16:14.250 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:16:15.255 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:16:19.314 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:16:20.319 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:16:24.379 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:16:25.384 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:16:29.442 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:16:30.447 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:16:34.507 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:16:35.512 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:16:39.570 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:16:40.575 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:16:41.827 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:16:42.833 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:16:46.365 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:16:47.371 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:16:50.887 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:16:51.892 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:16:53.456 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:16:54.462 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:16:57.556 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:16:58.562 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:16:58.563 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:16:59.897 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:17:00.905 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:17:00.906 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:17:03.459 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:17:04.464 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:17:08.521 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:17:09.526 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:17:13.588 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:17:14.593 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:17:18.650 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:17:19.655 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:17:23.713 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:17:24.718 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:17:28.775 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:17:29.780 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:17:33.839 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:17:34.844 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:17:38.902 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:17:39.907 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:17:43.966 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:17:44.972 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:17:49.031 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:17:50.042 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:17:54.554 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:17:55.559 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:17:59.248 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:18:00.255 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:18:00.930 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:18:00.996 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:18:01.940 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:18:02.001 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:18:06.060 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:18:07.064 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:18:11.121 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:18:12.126 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:18:17.791 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:18:18.796 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:18:22.853 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:18:23.858 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:18:27.916 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:18:28.921 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:18:32.978 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:18:33.984 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:18:38.043 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:18:39.048 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:18:43.105 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:18:44.111 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:18:48.171 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:18:49.176 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:18:53.233 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:18:54.238 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:18:58.297 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:18:59.302 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:19:00.030 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:19:01.035 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:19:03.831 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:19:04.836 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:19:08.893 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:19:09.898 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:19:13.957 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:19:14.962 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:19:19.020 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:19:20.025 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:19:24.083 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:19:25.088 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:19:29.145 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:19:30.150 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:19:34.210 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:19:35.215 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:19:39.272 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:19:40.277 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:19:44.335 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:19:45.340 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:19:49.397 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:19:50.402 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:19:54.461 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:19:55.467 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:19:59.522 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2712
+2024-08-10 01:20:00.529 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:20:02.218 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-08-10 01:20:02.219 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-08-10 01:20:02.219 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-08-10 01:20:07.070 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2714
+2024-08-10 01:20:08.075 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:20:12.132 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2714
+2024-08-10 01:20:13.137 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:20:17.195 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2714
+2024-08-10 01:20:18.204 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:20:22.259 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2714
+2024-08-10 01:20:23.264 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:21:14.162 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2714
+2024-08-10 01:21:15.168 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:21:19.228 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2714
+2024-08-10 01:21:20.234 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:21:24.292 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2714
+2024-08-10 01:21:25.299 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:21:29.357 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2714
+2024-08-10 01:21:30.363 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:21:34.421 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2714
+2024-08-10 01:21:35.427 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:21:39.484 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2714
+2024-08-10 01:21:40.491 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:21:41.505 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2714
+2024-08-10 01:21:42.547 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:21:48.189 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2714
+2024-08-10 01:21:49.194 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 01:21:53.255 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2714
+2024-08-10 01:21:54.260 [error] Error: No such branch: master.
+	at N.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-10 04:39:02.160 [info] Extension host terminating: renderer disconnected for too long (1)
+2024-08-10 04:39:02.160 [info] Lock '/home/kaylin/.vscode-server/data/User/workspaceStorage/1d52835e0cbde98ccf6ecc44dc1656fc-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-08-10 04:39:02.204 [error] Canceled: Canceled
+	at new C (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:144:35204)
+	at y.U (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:151:6017)
+	at z.<computed>.j.charCodeAt.R.CharCode.DollarSign.z.<computed> (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:151:3107)
+	at d.g (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:154:205942)
+	at d.executeCommand (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+	at A.registerCommand.description (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:154:204704)
+	at d.h (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:154:206481)
+	at d.g (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:154:205473)
+	at d.executeCommand (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+	at Object.executeCommand (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:164:23060)
+	at i.O [as value] (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:951642)
+	at n.B (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at n.C (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:83:807)
+	at n.fire (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:83:1023)
+	at Object.p [as dispose] (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:972220)
+	at /home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:978342
+	at Array.forEach (<anonymous>)
+	at f.dispose (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:978328)
+	at a.<anonymous> (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:152:4173)
+	at a.dispose (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:152:4270)
+	at a.<anonymous> (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:953940)
+	at a.dispose (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:152:4270)
+	at $ (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at /home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:160:13379
+	at /home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:30:1112
+	at Object.dispose (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:11:11354)
+	at m.eb (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:160:10056)
+	at /home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:160:7927
+	at Array.map (<anonymous>)
+	at m.$ (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:160:7914)
+	at m.terminate (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:160:8187)
+	at $.terminate (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at o (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:177:10633)
+	at j.a (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:177:7238)
+	at j.h (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:87:21483)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7) setContext undefined
+2024-08-10 04:39:02.205 [error] Canceled: Canceled
+	at new C (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:144:35204)
+	at y.U (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:151:6017)
+	at z.<computed>.j.charCodeAt.R.CharCode.DollarSign.z.<computed> (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:151:3107)
+	at d.g (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:154:205942)
+	at d.executeCommand (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+	at A.registerCommand.description (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:154:204704)
+	at d.h (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:154:206481)
+	at d.g (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:154:205473)
+	at d.executeCommand (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+	at Object.executeCommand (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:164:23060)
+	at set hasGitHubRepositories [as hasGitHubRepositories] (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/github/dist/extension.js:2:322969)
+	at /home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/github/dist/extension.js:2:323928
+	at i.value (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1060193)
+	at n.B (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at n.C (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:83:807)
+	at n.fire (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:83:1023)
+	at Object.p [as dispose] (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:972220)
+	at /home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:978342
+	at Array.forEach (<anonymous>)
+	at f.dispose (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:978328)
+	at a.<anonymous> (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:152:4173)
+	at a.dispose (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:152:4270)
+	at a.<anonymous> (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:953940)
+	at a.dispose (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:152:4270)
+	at $ (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at /home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:160:13379
+	at /home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:30:1112
+	at Object.dispose (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:11:11354)
+	at m.eb (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:160:10056)
+	at /home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:160:7927
+	at Array.map (<anonymous>)
+	at m.$ (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:160:7914)
+	at m.terminate (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:160:8187)
+	at $.terminate (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at o (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:177:10633)
+	at j.a (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:177:7238)
+	at j.h (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/workbench/api/node/extensionHostProcess.js:87:21483)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7) setContext undefined
+2024-08-10 04:39:02.208 [info] Extension host with pid 1811036 exiting with code 0

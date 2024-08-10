@@ -1,0 +1,6 @@
+Listening on 127.0.0.1:40151
+[2024-08-10 06:17:59] info Disposed of connection to running server.
+looking for token 830c712a-5641-4cd5-9eb6-2f37d9a2bc69, got Some("830c712a-5641-4cd5-9eb6-2f37d9a2bc69")
+[2024-08-10 06:17:59] info Checking /home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/log.txt and /home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/pid.txt for a running server...
+[2024-08-10 06:17:59] info Starting server...
+[2024-08-10 06:17:59] info Server started

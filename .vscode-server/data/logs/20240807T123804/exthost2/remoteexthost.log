@@ -1,0 +1,15 @@
+2024-08-07 12:38:41.753 [info] Extension host with pid 475472 started
+2024-08-07 12:38:41.768 [info] Lock '/home/kaylin/.vscode-server/data/User/workspaceStorage/5ce58ae79811a7516fc34e38b1504713/vscode.lock': Lock acquired.
+2024-08-07 12:38:42.115 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-08-07 12:38:42.201 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-08-07 12:38:42.414 [info] Eager extensions activated
+2024-08-07 12:38:42.414 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-08-07 12:38:42.414 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-08-07 12:38:42.864 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-08-07 12:38:45.023 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-08-07 12:38:45.023 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-08-07 12:38:45.024 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-08-07 12:38:45.024 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-08-07 16:45:55.458 [info] Extension host terminating: renderer disconnected for too long (1)
+2024-08-07 16:45:55.458 [info] Lock '/home/kaylin/.vscode-server/data/User/workspaceStorage/5ce58ae79811a7516fc34e38b1504713/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-08-07 16:45:55.483 [info] Extension host with pid 475472 exiting with code 0

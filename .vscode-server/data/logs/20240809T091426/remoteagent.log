@@ -1,0 +1,23 @@
+2024-08-09 09:14:26.653 [info] 
+
+
+
+
+2024-08-09 09:14:26.664 [info] Extension host agent started.
+2024-08-09 09:14:26.819 [info] [<unknown>][f4cf3b63][ManagementConnection] New connection established.
+2024-08-09 09:14:26.824 [info] [<unknown>][31c32755][ExtensionHostConnection] New connection established.
+2024-08-09 09:14:26.906 [info] [<unknown>][31c32755][ExtensionHostConnection] <1465284> Launched Extension Host Process.
+2024-08-09 09:14:39.474 [info] [<unknown>][f4cf3b63][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-08-09 09:14:47.939 [info] [<unknown>][4d881f58][ManagementConnection] New connection established.
+2024-08-09 09:14:47.944 [info] [<unknown>][48b2e98f][ExtensionHostConnection] New connection established.
+2024-08-09 09:14:47.947 [info] [<unknown>][48b2e98f][ExtensionHostConnection] <1465561> Launched Extension Host Process.
+2024-08-09 09:19:26.665 [info] New EH opened, aborting shutdown
+2024-08-09 09:19:26.669 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/kaylin/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/server/node/server.main.js:190:6369)
+    at process.emit (node:events:531:35)
+2024-08-09 09:19:48.037 [info] [<unknown>][31c32755][ExtensionHostConnection] <1465284> Extension Host Process exited with code: 0, signal: null.
+2024-08-09 09:40:16.244 [info] [<unknown>][4d881f58][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-08-09 12:39:55.467 [info] [<unknown>][48b2e98f][ExtensionHostConnection] <1465561> Extension Host Process exited with code: 0, signal: null.
+2024-08-09 12:39:55.467 [info] Last EH closed, waiting before shutting down
+2024-08-09 12:40:22.472 [info] [<unknown>][4d881f58][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+2024-08-09 12:44:55.469 [info] Last EH closed, shutting down
