@@ -1,0 +1,6 @@
+Listening on 127.0.0.1:37543
+[2024-08-08 11:55:00] info Disposed of connection to running server.
+looking for token 5b5bbba7-a0fd-4137-a486-aca16114d456, got Some("5b5bbba7-a0fd-4137-a486-aca16114d456")
+[2024-08-08 11:55:03] info Checking /home/kaylin/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/log.txt and /home/kaylin/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/pid.txt for a running server...
+[2024-08-08 11:55:03] info Found running server (pid=888595)
+[2024-08-08 13:27:37] info Disposed of connection to running server.

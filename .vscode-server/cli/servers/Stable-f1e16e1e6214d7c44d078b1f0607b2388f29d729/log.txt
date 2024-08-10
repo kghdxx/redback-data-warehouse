@@ -1,0 +1,50 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-fea86f76-68ce-4b62-b5c8-ec919ddac46f
+Extension host agent listening on /tmp/code-fea86f76-68ce-4b62-b5c8-ec919ddac46f
+
+[07:42:37] 
+
+
+
+
+[07:42:37] Extension host agent started.
+[07:42:37] [<unknown>][c47fd262][ExtensionHostConnection] Unknown reconnection token (never seen).
+[07:42:37] [<unknown>][df5b59c8][ManagementConnection] Unknown reconnection token (never seen).
+[07:42:48] [<unknown>][fefb568f][ExtensionHostConnection] New connection established.
+[07:42:48] [<unknown>][fefb568f][ExtensionHostConnection] <888789> Launched Extension Host Process.
+[07:42:48] [<unknown>][6a3f1575][ManagementConnection] New connection established.
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/kaylin/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:56:30817)
+    at A.updateTitle (/home/kaylin/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:56:26017)
+    at D.<computed> (/home/kaylin/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:56:21292)
+    at Object.call (/home/kaylin/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:37:5367)
+    at c.s (/home/kaylin/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:35:5506)
+    at c.q (/home/kaylin/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4947)
+    at b.value (/home/kaylin/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4247)
+    at n.B (/home/kaylin/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at n.fire (/home/kaylin/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.$e (/home/kaylin/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[07:42:51] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/kaylin/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:56:30817)
+    at A.updateTitle (/home/kaylin/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:56:26017)
+    at D.<computed> (/home/kaylin/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:56:21292)
+    at Object.call (/home/kaylin/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:37:5367)
+    at c.s (/home/kaylin/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:35:5506)
+    at c.q (/home/kaylin/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4947)
+    at b.value (/home/kaylin/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4247)
+    at n.B (/home/kaylin/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at n.fire (/home/kaylin/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.$e (/home/kaylin/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)

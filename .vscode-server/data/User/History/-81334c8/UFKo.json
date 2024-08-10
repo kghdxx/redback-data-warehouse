@@ -1,0 +1,10 @@
+{
+    "workbench.colorTheme": "Default Dark Modern",
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmPasteNative": false,
+    "git.autofetch": true,
+    "remote.SSH.remotePlatform": {
+        "redback.it.deakin.edu.au": "linux"
+    }
+}
