@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 import io
 import os
 import datetime
+import pandas as pd
 
 # Load environment variables
 load_dotenv()
@@ -49,11 +50,38 @@ def upload_to_minio(file, filename):
     except S3Error as e:
         st.error(f"Failed to upload {filename} to Data Warehouse: {e}")
 
+def list_files_in_bucket():
+    try:
+        # List all objects in the specified bucket
+        objects = minio_client.list_objects(bucket_name, recursive=True)
+        
+        # Prepare data for DataFrame
+        files_data = []
+        for obj in objects:
+            files_data.append({
+                "File Name": obj.object_name,
+                "Size (KB)": round(obj.size / 1024, 2),  # Convert size to KB
+                "Last Modified": obj.last_modified
+            })
+        
+        # Create DataFrame
+        if files_data:
+            df = pd.DataFrame(files_data)
+            st.dataframe(df)  # Display the DataFrame
+        else:
+            st.info("No files found in the bucket.")
+    except S3Error as e:
+        st.error(f"Failed to list files: {e}")
+
 def main():
     st.title("File Upload to Redback Data Warehouse Server")
 
+    # Display the current files in the bucket
+    st.subheader("Files Currently Stored in MinIO Bucket")
+    list_files_in_bucket()
+
     # Project selection dropdown
-    project = st.selectbox("Select Project", options=["project1", "project2", "project3", "project4", "project5", "other"])
+    project = st.selectbox("Select Project", options=["proj1", "proj2", "proj3", "proj4", "proj5", "other"])
 
     # File uploader
     uploaded_file = st.file_uploader("Choose a file", type=["csv", "txt", "xlsx", "json"])
@@ -76,3 +104,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
